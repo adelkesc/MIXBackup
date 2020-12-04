@@ -6,14 +6,16 @@ using UnityEngine;
 public class EnemyShoot : MonoBehaviour
 {
     private EnemyMovement movement;
+    private EnemyFX enemyEffect;
 
     public float damage = 10.0f;
     public float range = 100.0f;
     RaycastHit hit;
 
-    private void Start()
+    private void Awake()
     {
         movement = GameObject.FindObjectOfType<EnemyMovement>();
+        enemyEffect = GameObject.FindObjectOfType<EnemyFX>();
     }
 
     public bool FoundPlayer()
@@ -32,6 +34,7 @@ public class EnemyShoot : MonoBehaviour
         while (FoundPlayer())
         {
             Debug.Log("Is Called.");
+            enemyEffect.ShotsFired();
             PlayerHealth player = hit.transform.GetComponent<PlayerHealth>();
             player.TakeDamage(damage);
             yield return new WaitForSeconds(2f);

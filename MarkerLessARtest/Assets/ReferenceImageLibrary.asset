@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5694663303095529955
+  m_GuidHigh: 3051210907327897766
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5029503768573046238
+      m_GuidHigh: 14165106305937723324
+    m_SerializedTextureGuid:
+      m_GuidLow: 11647630000145749515
+      m_GuidHigh: 8677326613107459481
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: BluejayPerch
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4752698557356217072
+      m_GuidHigh: 5145515351284673940
+    m_SerializedTextureGuid:
+      m_GuidLow: 1334415533503420415
+      m_GuidHigh: 7682371805928987226
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: CardinalPerch
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5719420838469882045
+      m_GuidHigh: 14688349536479429013
+    m_SerializedTextureGuid:
+      m_GuidLow: 14011874880886056395
+      m_GuidHigh: 7364795121314449705
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: ChickadeePerch
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4992798270032107622
+      m_GuidHigh: 9718125058858462342
+    m_SerializedTextureGuid:
+      m_GuidLow: 1861277815562501693
+      m_GuidHigh: 5146918096618569640
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: CrowPerch
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5368756166648612587
+      m_GuidHigh: 14928598447519852430
+    m_SerializedTextureGuid:
+      m_GuidLow: 13007681083722609114
+      m_GuidHigh: 1888032446273436281
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: GoldfinchPerch
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5126996479772777067
+      m_GuidHigh: 12367985616334741414
+    m_SerializedTextureGuid:
+      m_GuidLow: 14989320933796147029
+      m_GuidHigh: 4887959685178961706
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: RobinPerch
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5467108870041278051
+      m_GuidHigh: 3630259828633331344
+    m_SerializedTextureGuid:
+      m_GuidLow: 16664686698359840476
+      m_GuidHigh: 4124304319705800137
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SparrowPerch
+    m_Texture: {fileID: 0}

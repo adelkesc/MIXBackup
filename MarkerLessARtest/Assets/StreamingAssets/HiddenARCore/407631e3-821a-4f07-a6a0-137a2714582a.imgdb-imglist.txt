@@ -1,0 +1,7 @@
+b248edde630745ccbc4f10a3229194c4|Assets/images/BluejayPerch.jpg
+33ba92f0fa2841f4946da42bf38a6847|Assets/images/CardinalPerch.jpg
+25f6d0bd76f34f5f9541a1ca1480d7cb|Assets/images/ChickadeePerch.jpg
+d872d866fb92454986ac149040b7dd86|Assets/images/CrowPerch.jpg
+e6c746eba7494a818e67de6231092dcf|Assets/images/GoldfinchPerch.jpg
+6588da6bc0224726a6dfc5c063e9a3ab|Assets/images/RobinPerch.jpg
+23329663128d4bdf90660f8814466132|Assets/images/SparrowPerch.jpg

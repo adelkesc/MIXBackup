@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 9a922cfddd1f16f46a1128ca1d6fd333
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - openHandMesh: {fileID: 8252629537375425712, guid: e6cce274e448e174f93b29cb64a41433, type: 3}
+  - closedHandMesh: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
