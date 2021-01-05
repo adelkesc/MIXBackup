@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class FireExtinguisher : MonoBehaviour
+public class FireExtinguisherRefactor : MonoBehaviour
 {
     public bool spewing;
 
@@ -42,5 +42,10 @@ public class FireExtinguisher : MonoBehaviour
         {
             disableTheExtinguisher();
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
     }
 }

@@ -67,10 +67,7 @@ public class FireScript : MonoBehaviour
     {
         fireAlarm.GetComponent<AudioSource>().Play();
         fireAlarm.GetComponent<AudioSource>().loop = true;
-        //AudioManager.instance.Play("");
     }
-
-    // Start is called before the first frame update
 
     public void ToggleThePanFire() // public methods for toggling the pan fire. Using the test boolean I made for simplicity/ time efficiency
     {
@@ -103,6 +100,7 @@ public class FireScript : MonoBehaviour
             test = true;
         }
     }
+    // Amahdya: None of this checking health, just start the fire.
 
     void Start()
     {
@@ -112,6 +110,8 @@ public class FireScript : MonoBehaviour
         {
             //Debug.Log(particleSystems[i].gameObject.name);
         }
+        // Amahdya: This for loop appears to do nothing.
+
         if (enabledOnStart) //this wont be used except for testing
         {
             startAllParticles();
@@ -121,6 +121,7 @@ public class FireScript : MonoBehaviour
             killAllParticles();
             currentHealth = -100;
         }
+        // Amahdya: If this is for testing, then it should be commented when we are not using it.
     }
     // Update is called once per frame
     void Update()
@@ -131,6 +132,7 @@ public class FireScript : MonoBehaviour
             {
                 currentHealth = 5;
                 startAllParticles();
+                // Amahdya: Coroutine could be called from here or replace this.
             }
 
             else
@@ -145,6 +147,7 @@ public class FireScript : MonoBehaviour
             takenDamage = false;
             particlesHit = 0;
         }
+        // Amahdya: elseif()?
         else
         {
             if (currentHealth <= fireHealth)
